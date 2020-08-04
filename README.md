@@ -1,55 +1,69 @@
-# budgetTracker
+# Budget Tracker
 
-Unit 18 PWA Homework: Online/Offline Budget Trackers
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-Offline Functionality:
+https://shrouded-savannah-17670.herokuapp.com/
 
-Enter deposits offline
+Track your Budget!
 
-Enter expenses offline
+# Table Of Contents:
 
-When brought back online:
+- [Heroku](#Heroku)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Technologies](#Technologies)
+- [Contributors](#Contributors)
 
-Offline entries should be added to tracker.
+## GIF shot Budget Tracker!
 
-User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+![](./public/assets/budgetTrackerGif.gif)
 
-Business Context
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+# Description:
 
-Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+Track your budget, add or delete transactions from your budget!
 
-Commit Early and Often
+# Installation:
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+The repository is set up , you will need to run npm init -y and npm install in order to install NPM packages .
 
-Your commit history is a signal to employers that you are actively working on projects and learning new skills
+Once the packages are installed you can start the server by typing node server file or by using nodemon.
 
-Your commit history allows you to revert your code base in the event that you need to return to a previous state
+The application can be run either on local port by accessing http://localhost:3000 which is connected to your local Mongo database or by running the app deployed in Heroku that is connected to a Mongo Database.
 
-Follow these guidelines for committing:
+# Usage:
 
-Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+    1. Page loads you are prompted with current budget.
+    2. You can either add or subtract to your budget, if you lose connection you can also add or subtract to it offline
 
-Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+# Technologies-
 
-Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Front-End Technologies:
 
-Test your application before you commit to ensure functionality at every step in the development process
+    - HTML 5 is used to create a polished front-end.
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+    - Bootstrap: Which gives you a Modern front-end framework based on material design.
 
-Submission on BCS
+    - CSS : For styling the HTML pages.
+    - Javascript: This application conforms to the ECMA script specification.
 
-You are required to submit the following:
+## Back-End Technologies:
 
-the URL to the deployed application
+    - Node.js: Javascript runtime environment that executes a Javascript code outside the web browser.
+    - Express js : Designed for building web applications and API's
+    - Express-session: Creates a session middleware and session data is stored on the server side.
+    - Mongo DB
 
-the URL to the Github repository
+# Host:
+
+    - Deployed in Heroku
+
+# Installation:
+
+    1. The repository is set up , you will need to run npm init -y and npm install in order to install NPM packages .
+
+    2. npm install
+
+    3. The application can be run either on local port by accessing http://localhost:300 which is connected to your local mongo database or by running the app deployed in Heroku that is connected to the mongo Database.
+
+# Contributors:
+
+    - Keith Beaudoin
